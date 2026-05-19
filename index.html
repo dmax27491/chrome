@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaudhary Nabin | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="logo" href="#home" aria-label="Chaudhary Nabin portfolio home">
+          CN
+        </a>
+
+        <nav class="nav" aria-label="Portfolio sections">
+          <a href="#profile">Profile</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro" id="home">
+          <div class="intro-card">
+            <p class="label">Student Portfolio</p>
+            <h1>Chaudhary Nabin</h1>
+            <p class="intro-text">
+              Frontend developer from Nepal studying at KDU Global and building
+              simple, responsive web interfaces with HTML, CSS, and JavaScript.
+            </p>
+            <div class="quick-actions">
+              <a class="button solid" href="#work">See Projects</a>
+              <button class="button outline" id="helloButton" type="button">
+                Say Hello
+              </button>
+            </div>
+            <p class="status" id="statusMessage" aria-live="polite">
+              Available for frontend practice projects.
+            </p>
+          </div>
+
+          <aside class="student-card" id="profile" aria-label="Student details">
+            <div class="avatar">CN</div>
+            <dl>
+              <div>
+                <dt>Student ID</dt>
+                <dd>2417124</dd>
+              </div>
+              <div>
+                <dt>University</dt>
+                <dd>KDU Global</dd>
+              </div>
+              <div>
+                <dt>Country</dt>
+                <dd>Nepal</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Frontend Developer</dd>
+              </div>
+            </dl>
+          </aside>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-title">
+            <p class="label">Skills</p>
+            <h2>Frontend basics with clean execution.</h2>
+          </div>
+
+          <div class="skill-list">
+            <article>
+              <span>HTML</span>
+              <div class="meter" aria-hidden="true">
+                <span style="width: 88%"></span>
+              </div>
+            </article>
+            <article>
+              <span>CSS</span>
+              <div class="meter" aria-hidden="true">
+                <span style="width: 82%"></span>
+              </div>
+            </article>
+            <article>
+              <span>JavaScript</span>
+              <div class="meter" aria-hidden="true">
+                <span style="width: 74%"></span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="work">
+          <div class="section-title">
+            <p class="label">Work</p>
+            <h2>Small projects for steady frontend growth.</h2>
+          </div>
+
+          <div class="work-list">
+            <article class="work-item">
+              <span class="work-tag">HTML + CSS</span>
+              <h3>Personal Profile Page</h3>
+              <p>
+                A responsive student profile page with clear sections,
+                readable spacing, and organized information.
+              </p>
+            </article>
+            <article class="work-item">
+              <span class="work-tag">JavaScript</span>
+              <h3>Interactive To-Do List</h3>
+              <p>
+                A browser-based task list concept with add, remove, and
+                completed states for daily practice.
+              </p>
+            </article>
+            <article class="work-item">
+              <span class="work-tag">Responsive UI</span>
+              <h3>Course Landing Page</h3>
+              <p>
+                A simple landing page layout designed to work cleanly on phone,
+                tablet, and desktop screens.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div>
+            <p class="label">Contact</p>
+            <h2>Open to learning and building frontend interfaces.</h2>
+          </div>
+          <a class="button solid" href="mailto:chaudhary.nabin@example.com">
+            Email Nabin
+          </a>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; <span id="year"></span> Chaudhary Nabin. Built with HTML, CSS, and JavaScript.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
